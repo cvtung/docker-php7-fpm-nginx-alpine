@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  app:
+    image: tungcv/php74-fpm-nginx-alpine:latest
+    build: .
+    ports:
+      - 8080:8080
+  sut:
+    image: alpine:3.10
+    depends_on:
+      - app
+    command: /tmp/run_tests.sh
+    volumes:
+      - "./run_tests.sh:/tmp/run_tests.sh:ro"

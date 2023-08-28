@@ -1,9 +1,9 @@
 # Contributing to this project
 I love your input! I want to make contributing to this project as easy and transparent as possible.
 
-## Report bugs using Github's [issues](https://github.com/TrafeX/docker-php-nginx/issues)
+## Report bugs using Github's [issues](https://github.com/cvtung/docker-php74-fpm-nginx-alpine/issues)
 GitHub issues is used to track public bugs.
-Report a bug by [opening a new issue](https://github.com/TrafeX/docker-php-nginx/issues/new); it's that easy!
+Report a bug by [opening a new issue](https://github.com/cvtung/docker-php74-fpm-nginx-alpine/issues/new); it's that easy!
 
 ### What to include in an issue?
 - A quick summary and/or background

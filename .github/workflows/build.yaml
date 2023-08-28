@@ -9,7 +9,7 @@ on:
     - cron: '0 2 * * 6'
 
 env:
-  IMAGE_NAME: trafex/php-nginx
+  IMAGE_NAME: tungcv/php74-fpm-nginx-alpine
   IMAGE_TAG: ${{ github.sha }}
   DOCKER_BUILDKIT: 1
 

@@ -30,6 +30,6 @@ RUN composer install \
   --no-progress
 
 # Continue stage build with the desired image and copy the source including the dependencies downloaded by composer
-FROM trafex/php-nginx:latest
+FROM tungcv/php74-fpm-nginx-alpine:latest
 COPY --chown=nginx --from=composer /app /var/www/html
 ```
