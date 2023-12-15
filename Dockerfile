@@ -1,6 +1,6 @@
-FROM php:7.4.0-fpm-alpine
+FROM alpine:3.10
 LABEL Maintainer="cvtung <https://github.com/cvtung>"
-LABEL Description="Lightweight container with Nginx 1.24 & PHP 7.4 based on Alpine Linux."
+LABEL Description="Lightweight container with Nginx & PHP 7 based on Alpine Linux."
 # Setup document root
 WORKDIR /var/www/html
 
